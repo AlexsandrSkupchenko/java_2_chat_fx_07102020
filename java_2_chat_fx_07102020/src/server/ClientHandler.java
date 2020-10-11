@@ -66,6 +66,7 @@ public class ClientHandler {
                         } else {
                             server.broadcastMsg(this, str);
                         }
+
                     }
                 } catch (IOException e) {
                     e.printStackTrace();
