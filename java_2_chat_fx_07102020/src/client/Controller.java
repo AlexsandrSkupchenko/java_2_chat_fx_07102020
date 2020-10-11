@@ -97,6 +97,7 @@ public class Controller implements Initializable {
                             break;
                         }
 
+
                         textArea.appendText(str + "\n");
                     }
                 } catch (IOException e) {

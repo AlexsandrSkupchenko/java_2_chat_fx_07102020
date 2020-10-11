@@ -16,6 +16,7 @@
         <Button text="sign in" onAction="#tryToAuth" minWidth="60"/>
     </HBox>
 
+
     <TextArea fx:id="textArea" VBox.vgrow="ALWAYS" editable="false"/>
 
     <HBox fx:id="msgPanel" visible="false" managed="false">

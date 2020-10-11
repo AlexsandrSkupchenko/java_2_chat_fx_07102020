@@ -55,6 +55,7 @@ public class ClientHandler {
                             sendMsg("/end");
                             break;
                         }
+
                         if (str.startsWith("/w")) {
                             String[] tokens = str.split(" ");
                             String newStr = "";

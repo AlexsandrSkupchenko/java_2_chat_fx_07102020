@@ -60,6 +60,7 @@ public class Server {
         }
     }
 
+
     public void subscribe(ClientHandler clientHandler) {
         clients.add(clientHandler);
     }

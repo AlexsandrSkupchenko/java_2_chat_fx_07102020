@@ -16,6 +16,7 @@ public class SimpleAuthService implements AuthService {
         }
     }
 
+
     private List<UserData> users;
 
     public SimpleAuthService() {
@@ -27,6 +28,7 @@ public class SimpleAuthService implements AuthService {
             users.add(new UserData("login" + i, "pass" + i, "nick" + i));
         }
     }
+
 
     @Override
     public String getNicknameByLoginAndPassword(String login, String password) {
